@@ -31,39 +31,39 @@
     api_key:
       secure: "mzVO0uc7ZOtxTAifrYen8c30D0KPJ0UbXrl4pO/3qzJ/wIwqdZWUjz3ICNyWsew+TWJMwu3GS7tNj1UuFgrqZaV2Px1K40dl7hG/ZecTFIza2epBBLThksdiALQ/L1n7aJ7orJtFq8sPKkvd3/fcC0tDU0JDVdBTbb91oJ254hWN0vqS6LiFVNE8LHgCgg82MrPMXZsdkIiyuyP7q4k8k4HYQ5s3+jq61TmaLbO7RsM3a7t8ByI5Cd01wA6zrEqiIrkL3S+wc3enhXgi/UldeCHdYTLTE+M0Vsq04oshRXifmD1QUBqrRk8U4aqAHKme62JeT2y7b4+96yRB/lcLE3YTxOHZMh9GXrKFJO38h4Ij0reSWOhAve4F10U7PxFFek+M4/dXjSYtTjkdvIE2RZ+D6djFrvd2PItfuNUu8Ydk4kEtbnM72kXdVI8SBbC3TJfIKYR7Q9nHBZ3jpHws14cX1Myeo8O0W/g69Fhue/pDvaFKnUMX4UzITnaJ11XTP/PveWYN5hg2ak702zyVTiIQJIRXJTTM1XIaY6PeYLY5OIs0yAzZ3aXJTwIL/0KgT0T3FNTRONiDLessbOlMEZe5x/Sg9Rt1XTsE68splFqbdXDGZKph7vmE2PpfTR2EQZsu7ADmYa095FTfz6AqyaEGGWhDR3LhQamMydUfHqk="
     file:
-      - cross/ghb0t-linux-amd64.md5
-      - cross/ghb0t-windows-386.sha256
-      - cross/ghb0t-linux-arm
-      - cross/ghb0t-darwin-amd64.md5
-      - cross/ghb0t-darwin-amd64
-      - cross/ghb0t-solaris-amd64.md5
-      - cross/ghb0t-linux-arm64.sha256
-      - cross/ghb0t-linux-arm.sha256
-      - cross/ghb0t-linux-386.sha256
-      - cross/ghb0t-darwin-386.md5
-      - cross/ghb0t-windows-386.md5
-      - cross/ghb0t-freebsd-amd64.md5
-      - cross/ghb0t-linux-arm64.md5
-      - cross/ghb0t-linux-arm64
-      - cross/ghb0t-freebsd-amd64.sha256
-      - cross/ghb0t-freebsd-386.md5
-      - cross/ghb0t-linux-amd64.sha256
-      - cross/ghb0t-linux-386.md5
-      - cross/ghb0t-freebsd-386
-      - cross/ghb0t-solaris-amd64.sha256
-      - cross/ghb0t-windows-amd64
-      - cross/ghb0t-windows-amd64.md5
-      - cross/ghb0t-windows-amd64.sha256
-      - cross/ghb0t-linux-arm.md5
-      - cross/ghb0t-darwin-386.sha256
-      - cross/ghb0t-darwin-amd64.sha256
-      - cross/ghb0t-windows-386
-      - cross/ghb0t-solaris-amd64
-      - cross/ghb0t-darwin-386
-      - cross/ghb0t-linux-386
-      - cross/ghb0t-freebsd-amd64
-      - cross/ghb0t-freebsd-386.sha256
-      - cross/ghb0t-linux-amd64
+      - cross/purgeflare-linux-amd64.md5
+      - cross/purgeflare-windows-386.sha256
+      - cross/purgeflare-linux-arm
+      - cross/purgeflare-darwin-amd64.md5
+      - cross/purgeflare-darwin-amd64
+      - cross/purgeflare-solaris-amd64.md5
+      - cross/purgeflare-linux-arm64.sha256
+      - cross/purgeflare-linux-arm.sha256
+      - cross/purgeflare-linux-386.sha256
+      - cross/purgeflare-darwin-386.md5
+      - cross/purgeflare-windows-386.md5
+      - cross/purgeflare-freebsd-amd64.md5
+      - cross/purgeflare-linux-arm64.md5
+      - cross/purgeflare-linux-arm64
+      - cross/purgeflare-freebsd-amd64.sha256
+      - cross/purgeflare-freebsd-386.md5
+      - cross/purgeflare-linux-amd64.sha256
+      - cross/purgeflare-linux-386.md5
+      - cross/purgeflare-freebsd-386
+      - cross/purgeflare-solaris-amd64.sha256
+      - cross/purgeflare-windows-amd64
+      - cross/purgeflare-windows-amd64.md5
+      - cross/purgeflare-windows-amd64.sha256
+      - cross/purgeflare-linux-arm.md5
+      - cross/purgeflare-darwin-386.sha256
+      - cross/purgeflare-darwin-amd64.sha256
+      - cross/purgeflare-windows-386
+      - cross/purgeflare-solaris-amd64
+      - cross/purgeflare-darwin-386
+      - cross/purgeflare-linux-386
+      - cross/purgeflare-freebsd-amd64
+      - cross/purgeflare-freebsd-386.sha256
+      - cross/purgeflare-linux-amd64
     skip_cleanup: true
     on:
       go: tip

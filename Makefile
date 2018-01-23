@@ -4,8 +4,8 @@
 PREFIX?=$(shell pwd)
 
 # Setup name variables for the package/tool
-NAME := ghb0t
-PKG := github.com/jessfraz/$(NAME)
+NAME := purgeflare
+PKG := github.com/chris-short/$(NAME)
 
 # Set any default go build tags
 BUILDTAGS :=
