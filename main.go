@@ -37,7 +37,8 @@ func main() {
 	}
 	body := bytes.NewReader(payloadBytes)
 
-	req, err := http.NewRequest("DELETE", "https://api.cloudflare.com/client/v4/zones/89a96b8b091a805efea9e0eeee8e6e1b/purge_cache", body)
+	purgeAddress := fmt.Sprintf("https://api.cloudflare.com/client/v4/zones/%s/purge_cache", *cfzoneAsFlag)
+	req, err := http.NewRequest("DELETE", purgeAddress, body)
 	if err != nil {
 		// handle err
 	}
