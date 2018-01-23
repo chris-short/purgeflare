@@ -29,7 +29,7 @@ func main() {
 	}
 
 	data := Payload{
-	// fill struct
+		PurgeEverything: true,
 	}
 	payloadBytes, err := json.Marshal(data)
 	if err != nil {
